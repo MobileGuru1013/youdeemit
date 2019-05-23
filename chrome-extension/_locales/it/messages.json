@@ -1,0 +1,99 @@
+{
+	"lang":{"message":"it","description":""},
+    "deemeter" : {
+        "message" : "inadatto",
+        "description" : "questo è il voto medio assegnato dagli utenti presente su Deemeter"
+    },
+    "step1_titleMsg" : {
+      "message":"YouDeemIt - assegna un voto a questa pagina"  
+    },
+	"step1_Help" : {
+      "message":"clicca su una delle icone sottostanti, potrai approfondire il voto nella schermata seguente"  
+    },
+    "step2_titleMsg" : {
+      "message":"Deemeter - conferma il tuo voto"  
+    },
+	"step3_Help" : {
+      "message":"Deemeter è il database al quale YouDeemIt invia il tuo voto, che farà media con i voti degli altri utenti per questa pagina."  
+    },
+	"step3_titleMsg" : {
+      "message":"YouDeemIt - voto confermato!"  
+    },
+	"step4_titleMsg" : {
+      "message":"YouDeemIt - voto già espresso!"  
+    },
+    "step1_helpMsg" :{
+        "message": "Clicca su una delle icone sottostanti per esprimere il tuo parere. Potrai darci ulteriori dettagli, se vorrai, nella schermata seguente."
+    },
+    "step1_hpMsg" :{
+        "message": "Secondo te, <strong class=\"deemeter_title\"></strong> è una pagina con contenuto:"
+    },
+	"step2_SafeMsg" :{
+        "message": "Hai classificato <strong class=\"deemeter_title\"></strong> come pagina con contenuto <strong>sicuro</strong>."
+    },
+	"step2_ProblematicMsg" :{
+        "message": "Hai classificato <strong class=\"deemeter_title\"></strong> come pagina con contenuto <strong>potenzialmente difficile</strong>."
+    },
+	"step2_UnsafeMsg" :{
+        "message": "Hai classificato <strong class=\"deemeter_title\"></strong> come pagina con contenuto <strong>inadatto</strong>. "
+    },
+	"step2_Reason" :{
+        "message": "Se vuoi, puoi specificare il motivo della tua scelta:"
+    },
+	"step2_Other" :{
+        "message": "altro (specificare)"
+    },
+	"step2_Extend" :{
+        "message": "Estendi il voto a tutto il sito"
+    },
+	"step2_Confirm" :{
+        "message": "Conferma il mio voto!"
+    },
+	"step2_Ops" :{
+        "message": "Ops! Ho sbagliato (torna indietro)"
+    },
+	"step3_Thanks" :{
+        "message": "Grazie! Il tuo voto è stato inviato al database Deemeter."
+    },
+	"step3_Close" :{
+        "message": "Chiudi e continua a navigare"
+    },
+	"step3_DontShow" :{
+        "message": "non mostrare più questo messaggio"
+    },
+	"step4_AlreadyRated" :{
+        "message": "Hai già assegnato un valore sia a questa pagina che a tutto il dominio."
+    },
+    "value0_label":{
+    	"message":"Nessun voto"
+    },
+    "value1_label":{
+    	"message":"Sicuro"
+    },
+    "value2_label":{
+    	"message":"Difficile"
+    },
+    "value3_label":{
+    	"message":"Inadatto"
+    },
+    "canNotUncheckDomain":{
+    	"message":"Hai già assegnato un valore a questa pagina, ma puoi assegnare un voto all'intero dominio."
+    },
+    "canNotCheckDomain":{
+    	"message":"Hai già assegnato un valore all'intero dominio, ma puoi specificare un voto per questa particolare pagina."
+    },
+    "login_Action":{
+    	"message":"Accedi"
+    },
+    "login_GainPoints":{
+	    "message":"Guadagna punti!"
+	},
+	"extend_Vote":{
+	    "message":"se clicchi, assegni lo stesso voto a tutte le pagine presenti in questo sito. Potrai rivotarle singolarmente."
+	},
+	"login_Welcome":{
+	    "message":"Ciao %NAME%, hai effettuato l'accesso!"
+	},
+    "votes":{"message":"voti"}
+    
+}

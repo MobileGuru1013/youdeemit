@@ -1,0 +1,271 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:700|PT+Sans:400,700);
+@import "reset.css";
+@import "layout.css";
+
+/* youdeemit version 1.5 */
+
+body {
+	font-size:62.5%; font-family: 'PT Sans', sans-serif;
+    word-wrap: break-word;
+}
+
+
+.drate_step3 .drate_Help,
+.drate_step4 .drate_Help {
+    text-align:center;
+}
+
+.drate_container p {
+    position:relative;
+    width:auto; padding:0 0 .5em;
+}
+
+.drate_Help .vtip {
+	display:inline-block;
+	height:10px; width:14px; padding:0 0 4px; margin:2px 0 0 4px;
+	font-size:.785em; font-weight:700; text-align: center;
+	color:#fff;
+	background:#80B5BA;
+	-moz-border-radius:7px; border-radius:7px;
+}
+
+.drate_Help .vtip:hover {
+	cursor:default;
+}
+
+.drate_Back {
+	font-size:.857em; color:#D87731; text-decoration: underline;
+}
+
+.drate_Back:hover {
+    text-decoration: none;
+}
+
+/* UI header */
+
+.drate_container header {
+	font-weight: 700;
+	color:#fff;
+	background:#6FBFB9;
+}
+
+.drate_IconMini {
+	display:inline-block; float:left;
+	height:20px; padding:0 0 0 28px;
+	background-image:url('images/icon_faces_mini.png');
+	background-repeat: no-repeat;
+}
+
+.drate_face_neutral {background-position: 0 0;}
+.drate_face_safe {background-position: 0 -23px;}
+.drate_face_noteasy {background-position: 0 -45px;}
+.drate_face_unsafe {background-position: 0 -68px;}
+
+
+.drate_Login {
+	display:inline-block; float:right;
+	color:#396072;
+}
+
+.drate_Login a {
+	display:inline-block; float:right;
+	padding:0 9px 0 12px;
+	color:#fff; text-decoration: underline;
+	background:url('images/login.png') no-repeat right 8px;
+}
+
+.drate_Login a:hover {
+	text-decoration: none;
+}
+
+/* # header */
+/* UI footer */
+
+.drate_container footer {
+	font-size:.875em;
+	color:#666;
+}
+
+/* # footer */
+
+.drate_Rate {
+    display:inline-block;
+    padding:0 0 0 65px;
+}
+
+.drate_Safe,
+.drate_NotEasy,
+.drate_Unsafe {
+	display:inline-block; float:left;
+	height:auto; min-width:90px; max-width:105px; padding:101px 5px 0; margin:0 65px 0 0;
+	text-align:center; font-weight:700;
+	color:#333;
+	background-image:url('images/icon_faces_medium.png');
+	background-repeat:no-repeat;
+}
+
+.drate_Safe {background-position:center 3px;}
+.drate_NotEasy {background-position:center -136px;}
+.drate_Unsafe {background-position:center -274px;}
+
+.drate_Rate a:hover {
+    color:#000;
+}
+
+a.drate_Safe:hover {background-position:center -401px;}
+a.drate_NotEasy:hover {background-position:center -540px;}
+a.drate_Unsafe:hover {background-position:center -678px;}
+
+.drate_step2 .drate_Safe,
+.drate_step2 .drate_NotEasy,
+.drate_step2 .drate_Unsafe {
+	margin:0 24px 0 0; width:90px;
+	text-indent:-999px;
+}
+
+.drate_Reason p {
+	padding:1em 0 0;
+}
+
+.drate_Strong {
+	font-weight:700;
+}
+
+.drate_Section form {
+    display:block; clear:both;
+	padding:0 0 0 122px;
+
+}
+
+form .dmotivations label {
+    display:block;
+    height:20px; padding:0 0 6px 0;
+    line-height: 1.5em;
+	color:#333;
+}
+
+form .dmotivations label span {
+	display:none;
+}
+
+label input[type=radio],
+label input[type=checkbox]{
+	margin:3px 10px 3px 3px;
+}
+
+form .drate_CallToAction label {
+	display:block; clear: both;
+	padding:0 0 7px;
+    color:#333;
+}
+
+form .drate_CallToAction label span {
+	display: inline;
+	font:.874em 'PT Sans', Arial, sans-serif;
+	color:#384146;
+}
+
+.drate_Other {
+	position:relative;
+	padding:8px 8px 16px; margin:0 0 15px;
+}
+
+.drate_Suggest {
+	font:.875em 'PT Sans', Arial, sans-serif;
+}
+
+.drate_Other label {
+	display:inline-block; float:left;
+}
+
+.drate_Other input[type=text] {
+	height:20px; width:280px; margin-left:10px; padding:4px 6px 5px;
+	font-family: 'PT Sans', Arial, sans-serif;
+	color:#666;
+	background:#fff;
+	border:none; -moz-border-radius:4px; border-radius:4px;
+	box-shadow:inset 0 0 4px rgba(0,0,0,.5);
+}
+
+.drate_Over {
+	display:block; position: absolute;
+	top:0; bottom:0; left:0; right:0;
+	padding: 6px;
+	color:#fff; font-weight:700; text-align:right; text-shadow:-1px -1px 0 rgba(0,0,0,.1);
+	-moz-border-radius:8px; border-radius:8px;
+	z-index:100;
+	background: rgba(129,182,188,.7);
+}
+
+.drate_Over a {
+	display:inline-block;
+	padding:1px 4px 2px;
+	background: rgba(255,255,255,.8); text-shadow:none;
+	color:rgba(129,182,188,1); 
+	-moz-border-radius:4px; border-radius:4px;
+	opacity:.9;
+}
+
+.drate_Over a:hover {background: rgba(255,255,255,1	);}
+
+.drate_CallToAction {
+	display:block;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.drate_CallToAction p {
+	float:none; clear:both;
+	padding:0 0 4px; margin:0; width:100%;
+}
+
+.drate_CallToAction input {
+	vertical-align: bottom;
+}
+.drate_CallToAction span {vertical-align: top;}
+.drate_CallToAction .vtip {
+	float:none; margin-top:0;
+}
+
+.drate_Btn {
+	display:inline-block;clear:both;
+	padding:10px 0; margin:0 auto 6px; width:277px;
+	font:1.6em 'Dosis', sans-serif ; font-weight:700; text-shadow: 0 -1px 0 rgba(0,0,0,.3); text-align: center;
+	color:#fff;
+	background: #fd8a36; /* Old browsers */
+	background: url(images/stitched.png) no-repeat 0 0;
+	background: url(images/stitched.png), -moz-linear-gradient(top,  #fd8a36 1%, #d7600a 100%); /* FF3.6+ */
+	background: url(images/stitched.png), -webkit-gradient(linear, left top, left bottom, color-stop(1%,#fd8a36), color-stop(100%,#d7600a)); /* Chrome,Safari4+ */
+	background: url(images/stitched.png), -webkit-linear-gradient(top,  #fd8a36 1%,#d7600a 100%); /* Chrome10+,Safari5.1+ */
+	background: url(images/stitched.png), -o-linear-gradient(top,  #fd8a36 1%,#d7600a 100%); /* Opera 11.10+ */
+	background: url(images/stitched.png), linear-gradient(to bottom,  #fd8a36 1%,#d7600a 100%); /* W3C */
+	-moz-border-radius:3px; border-radius:3px;
+	border:none; border-bottom:1px solid #AD4303; border-right:1px solid #F98631; 
+	box-shadow:2px 2px 2px rgba(0,0,0,.5);
+}
+
+.drate_Btn:hover {
+	background: #ff8e35; /* Old browsers */
+	background: url(images/stitched.png) no-repeat 0 0;
+	background: url(images/stitched.png), -moz-linear-gradient(top,  #ff8e35 1%, #de6202 100%); /* FF3.6+ */
+	background: url(images/stitched.png), -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ff8e35), color-stop(100%,#de6202)); /* Chrome,Safari4+ */
+	background:url(images/stitched.png), -webkit-linear-gradient(top,  #ff8e35 1%,#de6202 100%); /* Chrome10+,Safari5.1+ */
+	background: url(images/stitched.png), -o-linear-gradient(top,  #ff8e35 1%,#de6202 100%); /* Opera 11.10+ */
+	background: url(images/stitched.png), linear-gradient(to bottom,  #ff8e35 1%,#de6202 100%); /* W3C */
+    cursor:pointer;
+}
+
+.drate_Btn:active {
+	background: url(images/stitched.png) no-repeat 0 0 #ff8e35;
+}
+
+.drate_step3 .drate_Section,
+.drate_step4 .drate_Section {text-align: center;}
+.drate_step3 .drate_Section form {padding:0;}
+
+.drate_Improve p {
+	margin:0 auto; float:none; padding:0;
+}
+
+.drate_Improve .vtip {
+	float:none;
+}

@@ -1,0 +1,52 @@
+/* layout style for YouDeemIt */
+
+body {
+  width:640px;
+  overflow-x:hidden;
+}
+
+.cmg_Float:after {
+	display:block; clear:both;
+	content:"";
+	height:0;
+}
+
+.cmg_Float {
+	zoom:1;
+}
+
+.cmg_Clear {
+	clear:both;
+	zoom:1;
+}
+
+.drate_container {
+  width:640px;
+  font-size:1.4em;
+  background: #E9E4CE;
+}
+
+.drate_container header {
+    position:relative;
+	height:20px; padding:4px 13px 4px 8px;
+	-moz-border-radius-topleft:5px; -moz-border-radius-topright:5px; border-top-left-radius:5px; border-top-right-radius:5px;
+}
+
+.drate_Content {
+	position:relative;
+}
+
+.drate_Subheader {
+  padding:18px 33px 15px;
+  border-bottom:2px dashed rgba(152,115,78,.6);
+  background: #fff;
+}
+
+.drate_Section {
+  padding:30px 33px;
+  border-top:2px dashed rgba(255,255,255,.6);
+}
+
+.drate_container footer {
+	padding:0 8px 0;
+}

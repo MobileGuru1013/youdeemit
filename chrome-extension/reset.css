@@ -1,0 +1,14 @@
+/* CSS Document: reset.css */
+html, body,h1, h2, h3, h4, h5, h6, address, blockquote, dl, form, fieldset, label, legend, iframe, ol, ul, p, pre, table, caption, tbody, tfoot, thead ,tr, th, td, img { 
+	padding: 0; margin: 0; border:0;}
+a  { text-decoration:none; font-size:inherit;}
+img { vertical-align: middle }
+dl, dt, dd { margin-left: 0; padding-left: 0 }
+* { background-color: transparent }
+span { font-size: 100%; /* span inside h1 etc. */ }
+table { border-collapse: collapse }
+
+/* html5 reset */
+article, aside, details, hgroup, section, header, footer,  nav, figure, figcaption {display: block; }
+nav ul , nav ol {list-style:none; }
+nav a {text-decoration:none;}

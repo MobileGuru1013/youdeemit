@@ -1,0 +1,31 @@
+{
+    "name": "YouDeemIt - parental advice system",
+    "version": "1.7",
+    "manifest_version": 2,
+    "description": "YouDeemIt is a social tool created to give our kids a sense of responsibility while browsing the web.",
+    "default_locale": "it",
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_title": "YouDeemIt - __MSG_deemeter__ 9 voti",
+        "default_badge": "9",      
+        "default_popup": "popup.html" 
+    },
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+	"permissions": [
+		"tabs", "http://*/*"
+	],
+	"content_scripts": [
+		{
+			"matches": ["http://www.youdeemit.com/*"],
+			"js": ["contentscript.js"],
+			"run_at" : "document_idle",
+			"all_frames" : false
+		}
+	],
+	"homepage_url": "http://www.youdeemit.com",
+    "background":{ "scripts": ["main.js"] }
+}

@@ -1,0 +1,99 @@
+{
+	"lang":{"message":"en","description":""},
+     "deemeter" : {
+        "message" : "inappropriate",
+        "description" : "this is an average ranking on Deemeter"
+    },
+    "step1_titleMsg" : {
+      "message":"YouDeemIt - rank this page"  
+    },
+    "step2_titleMsg" : {
+      "message":"Deemeter - confirm your vote"  
+    },
+	"step3_Help" : {
+      "message":"Deemeter is the database YouDeemIt send your vote to. Other users' votes for this page will be averaged out with your one."  
+    },
+    "step3_titleMsg" : {
+      "message":"YouDeemIt - vote sent correctly!"  
+    },
+	"step4_titleMsg" : {
+      "message":"YouDeemIt - already rated!"  
+    },
+    "step1_helpMsg" :{
+        "message": "Click on one of the icons below to have your say.You can give more details, if you wish, in next window."
+    },
+    "step1_hpMsg" :{
+        "message": "You think content on <strong class=\"deemeter_title\"></strong> is:"
+    },
+	"step1_Help" : {
+      "message":"click on one of the icons below, you may give more details in next window"  
+    },
+	"step2_SafeMsg" :{
+        "message": "You think <strong class=\"deemeter_title\"></strong> is a page of safe content."
+    },
+	"step2_ProblematicMsg" :{
+        "message": "You think <strong class=\"deemeter_title\"></strong> is a page of problematic content."
+    },
+	"step2_UnsafeMsg" :{
+        "message": "You think <strong class=\"deemeter_title\"></strong> is a page of inappropriate content."
+    },
+	"step2_Reason" :{
+        "message": "If you feel like, give more details (only one main reason):"
+    },
+	"step2_Other" :{
+        "message": "other (specify)"
+    },
+	"step2_Extend" :{
+        "message": "Extend this vote to the whole website"
+    },
+	"step2_Confirm" :{
+        "message": "Confirm my vote!"
+    },
+	"step2_Ops" :{
+        "message": "ops! I changed my mind, bring me back"
+    },
+	"step3_Thanks" :{
+        "message": "Thank you! Your vote was sent to Deemeter"
+    },
+	"step3_Close" :{
+        "message": "Close and continue surfing"
+    },
+	"step3_DontShow" :{
+        "message": "do not show this window again"
+    },
+	"step4_AlreadyRated" :{
+        "message": "You already assigned a value to this page as well as to the whole domain."
+    },
+	
+    "value0_label":{
+    	"message":"No votes"
+    },
+    "value1_label":{
+    	"message":"Safe"
+    },
+    "value2_label":{
+    	"message":"Problematic"
+    },
+    "value3_label":{
+    	"message":"Unsafe"
+    },
+    "canNotUncheckDomain":{
+    	"message":"You already rated this page, but you can rate the whole domain."
+    },
+    "canNotCheckDomain":{
+    	"message":"You already rated the whole domain, but you can specify a value for this particular page."
+    },
+    "login_Action":{
+    	"message":"Log in"
+    },
+    "login_GainPoints":{
+	    "message":"Gain points!"
+	},
+	"extend_Vote":{
+	    "message":"if you click, you'll give the same vote to the whole website. You still can give votes to single pages later."
+	},
+	"login_Welcome":{
+	    "message":"Hi %NAME%, you are logged in!"
+	},
+	"votes":{"message":"votes"}
+}

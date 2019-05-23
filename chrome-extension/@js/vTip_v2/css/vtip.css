@@ -1,0 +1,2 @@
+p#vtip { display: none; position: absolute; width: 240px; padding: 10px; left: 5px; font-size: 0.8em; background-color: white; border: 1px solid #65D3B0; -moz-border-radius: 5px; -webkit-border-radius: 5px; z-index: 9999; color: #847B7B; font-family: 'Trebuchet MS', sans-serif; font-size: 12px; line-height: 18px; }
+p#vtip #vtipArrow { position: absolute; display: block; top: -10px; left: 180px; width: 21px; height: 11px; background: url(images/vtip_arrow.png) 0 0 no-repeat transparent; }

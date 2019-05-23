@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+    <head>
+	<title>YouDeemIt - parental advice system</title>
+	<meta charset="utf-8">
+	<!-- JavaScript and HTML must be in separate files for security. -->
+	<script src="@js/jquery-1.7.2.min.js"></script>
+	<script src="@js/vTip_v2/vtip.js" type="text/javascript"></script>
+	<script src="popup.js"></script>
+	<link rel="stylesheet" type="text/css" href="popup.css">
+	<link rel="stylesheet" type="text/css" href="@js/vTip_v2/css/vtip.css">
+    </head>
+    <body>
+		
+	<!-- step 1 - vote -->
+	<div class="drate_container drate_step1">
+	    <header>
+			<div class="drate_i18n drate_IconMini drate_face_neutral" data-i18n="step1_titleMsg"></div>
+			<div class="drate_Login"><span class="login_GainPoints drate_i18n" data-i18n="login_GainPoints"></span><a target="_blank" href="http://www.youdeemit.com/takePart.php" class="drate_i18n" data-i18n="login_Action"></a><span class="login_Welcome"></span></div>
+	    </header>
+		
+	    <div class="drate_Content">
+			
+			<div class="drate_Help drate_Subheader cmg_Float">
+				<p><span class="drate_i18n" data-i18n="step1_hpMsg"></span><span class="drate_i18n vtip" data-i18n="step1_help" title="">?</span></p>
+			</div>
+			
+			<div class="drate_Section">
+				<div class="drate_Rate cmg_Float">
+					<a href="#" class="drate_Safe">sicuro</a>
+					<a href="#" class="drate_NotEasy">difficile</a>
+					<a href="#" class="drate_Unsafe">inadatto</a>
+				</div>
+			</div>
+			
+	    </div>		
+	    <footer>
+		<span>YouDeemIt - popular web ranking system (beta)</span>
+	    </footer>
+	</div>
+	<!-- #step 1 - vote -->
+	
+	<!-- step 2 - confirm green (safe) -->
+	<div class="drate_container drate_step2" id="Safe">
+		<header>
+			<div class="drate_i18n drate_IconMini drate_face_neutral" data-i18n="step2_titleMsg"></div>
+			<div class="drate_Login"><span class="login_GainPoints drate_i18n" data-i18n="login_GainPoints"></span><a target="_blank" href="http://www.youdeemit.com/takePart.php" class="drate_i18n" data-i18n="login_Action"></a><span class="login_Welcome"></span></div>
+		</header>
+		
+		<div class="drate_Content Safe" id="step2">
+			
+		    <div class="drate_Subheader">
+				<div class="drate_Reason cmg_Float">
+					<div class="drate_Safe"></div>
+					<p><span class="drate_i18n" data-i18n="step2_SafeMsg"></span>&nbsp;<a href="#" class="drate_Back drate_i18n" data-i18n="step2_Ops"></a></p>
+				</div>
+			</div>
+				
+			<div class="drate_Section">
+				<form class="">
+				<div class="drate_CallToAction">
+					<label class="drate_Help cmg_Float">
+						<input type="checkbox" name="extendDomain">
+						<span class="drate_i18n" data-i18n="step2_Extend"></span>
+						<span class="drate_i18n vtip" data-i18n="extend_Vote" title="">?</span>
+					</label>
+					<button type="submit" class="drate_Btn drate_i18n" data-i18n="step2_Confirm"></button>
+				</div>
+				</form>
+			</div>
+		</div>
+		<footer>
+			<span>YouDeemIt - popular web ranking system (beta)</span>
+		</footer>
+	</div>
+	<!-- #step 2 green -->
+	
+	<!-- step 2 - confirm yellow (not easy) -->
+	<div class="drate_container drate_step2" id="NotEasy">
+		<header>
+			<div class="drate_i18n drate_IconMini drate_face_neutral" data-i18n="step2_titleMsg"></div>
+			<div class="drate_Login"><span class="login_GainPoints drate_i18n" data-i18n="login_GainPoints"></span><a target="_blank" href="http://www.youdeemit.com/takePart.php" class="drate_i18n" data-i18n="login_Action"></a><span class="login_Welcome"></span></div>
+	    </header>
+		
+		<div class="drate_Content">
+			
+			<div class="drate_Subheader">
+				<div class="drate_Reason cmg_Float">
+					<div class="drate_NotEasy"></div>
+					<p><span class="drate_i18n" data-i18n="step2_ProblematicMsg"></span>&nbsp;<a href="#" class="drate_Back drate_i18n" data-i18n="step2_Ops"></a></p>
+					<p class="drate_i18n drate_Strong" data-i18n="step2_Reason"></p>
+				</div>
+			</div>
+			
+			<div class="drate_Section">
+				<form class="">
+					<div class="dmotivations"></div>
+					<!--<div class="drate_Other cmg_Float">
+						<label>
+							<input type="radio" name="reason" id=""><span class="drate_i18n" data-i18n="">altro (specificare)</span>
+						</label>
+						<label>
+							<input type="text" name="reason" id="">
+						</label>
+						<div class="drate_Over">Devi essere un Top Deemer per avere questa funzione!<br>Accedi prima di confermare o <a href="http://www.youdeemit.com/takepart.php?lang=en">registrati</a></div>
+					</div>-->
+					<div class="drate_CallToAction">
+						<label class="drate_Help">
+							<input type="checkbox" name="extendDomain">
+							<span class="drate_i18n" data-i18n="step2_Extend"></span>
+							<span class="drate_i18n vtip" data-i18n="extend_Vote" title="">?</span>
+						</label>
+					<button type="submit" class="drate_Btn drate_i18n" data-i18n="step2_Confirm"></button>
+					<!--<p class="drate_Suggest"><strong>Aumenta la tua reputazione su YouDeemIt:</strong><br>
+se diventi un Top Deemer attiverai nuove funzioni e i tuoi voti saranno molto importanti.</p>-->
+					</div>
+				</form>
+			</div>
+		</div>
+		<footer>
+			<span>YouDeemIt - popular web ranking system (beta)</span>
+		</footer>
+	</div>
+	<!-- #step2 - yellow -->
+	
+	<!-- step 2 - confirm red (unsafe) -->
+	<div class="drate_container drate_step2" id="Unsafe">
+		<header>
+			<div class="drate_i18n drate_IconMini drate_face_neutral" data-i18n="step2_titleMsg"></div>
+			<div class="drate_Login"><span class="login_GainPoints drate_i18n" data-i18n="login_GainPoints"></span><a target="_blank" href="http://www.youdeemit.com/takePart.php" class="drate_i18n" data-i18n="login_Action"></a><span class="login_Welcome"></span></div>
+	    </header>
+	    
+	    <div class="drate_Content">
+			
+			<div class="drate_Subheader">
+				<div class="drate_Reason cmg_Float">
+					<div class="drate_Unsafe"></div>
+					<p><span class="drate_i18n" data-i18n="step2_UnsafeMsg"></span>&nbsp;<a href="#" class="drate_Back drate_i18n" data-i18n="step2_Ops"></a></p>
+					<p class="drate_i18n drate_Strong" data-i18n="step2_Reason"></p>
+				</div>
+			</div>
+			
+			<div class="drate_Section">
+				<form>
+					<div class="dmotivations"></div>
+					<!--<div class="drate_Other cmg_Float">
+						<label>
+							<input type="radio" name="reason" id=""><span class="drate_i18n" data-i18n="">altro (specificare)</span>
+						</label>
+						<label>
+							<input type="text" name="reason" id="">
+						</label>
+						<div class="drate_Over">Devi essere un Top Deemer per avere questa funzione!<br>Accedi prima di confermare o <a href="http://www.youdeemit.com/takepart.php?lang=en">registrati</a></div>
+					</div>-->
+					
+					<div class="drate_CallToAction">
+						<label class="drate_Help">
+							<input type="checkbox" name="extendDomain"><span class="drate_i18n" data-i18n="step2_Extend"></span><span class="drate_i18n vtip" data-i18n="extend_Vote" title="">?</span>
+						</label>
+						<button type="submit" class="drate_Btn drate_i18n" data-i18n="step2_Confirm"></button>
+					</div>
+				</form>
+			</div>
+	    </div>
+	    <footer>
+		    <span>YouDeemIt - popular web ranking system (beta)</span>
+	    </footer>
+	</div>
+	<!-- #step3 red -->
+	
+	<div class="drate_container drate_step3">
+		<header>
+			<div class="drate_i18n drate_IconMini drate_face_neutral" data-i18n="step3_titleMsg"></div>
+			<div class="drate_Login"><span class="login_GainPoints drate_i18n" data-i18n="login_GainPoints"></span><a target="_blank" href="http://www.youdeemit.com/takePart.php" class="drate_i18n" data-i18n="login_Action"></a><span class="login_Welcome"></span></div>
+	    </header>
+	   
+	    <div class="drate_Subheader drate_Help">
+			    <p><span class="drate_i18n" data-i18n="step3_Thanks"></span><span class="drate_i18n vtip" data-i18n="step3_Help" title="">?</span></p>
+		</div>
+		<div class="drate_Section">
+			<a href="#" class="drate_Btn drate_i18n" data-i18n="step3_Close"></a>
+			<form class="">
+				<label>
+					<input type="checkbox" name="thanksMessageFalse"><span class="drate_i18n" data-i18n="step3_DontShow"></span>
+				</label>
+			</form>
+	    </div>
+	    <footer>
+		    <span>YouDeemIt - popular web ranking system (beta</span>
+	    </footer>
+	</div>
+	<div class="drate_container drate_step4">
+	    <header>
+			<div class="drate_i18n drate_IconMini drate_face_neutral" data-i18n="step4_titleMsg"></div>
+			<div class="drate_Login"><span class="login_GainPoints drate_i18n" data-i18n="login_GainPoints"></span><a target="_blank" href="http://www.youdeemit.com/takePart.php" class="drate_i18n" data-i18n="login_Action"></a><span class="login_Welcome"></span></div>
+	    </header>
+		
+		<div class="drate_Subheader drate_Help">
+			<p><span class="drate_i18n" data-i18n="step4_AlreadyRated" title="YouDeemIt registra i voti della sessione per impedire voti seriali su una stessa pagina."></span><span class="drate_i18n vtip" data-i18n="step3_Help" title="">?</span></p>
+		</div>
+	    <div class="drate_Section">
+			    <a href="#" class="drate_Btn drate_i18n"  data-i18n="step3_Close"></a>
+		</div>
+	    <footer>
+		    <span>YouDeemIt - popular web ranking system (beta</span>
+	    </footer>
+	</div>
+    </body>
+</html>
